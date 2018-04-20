@@ -1,0 +1,7 @@
+sudo cpupower -c all frequency-set -g performance && sudo cpupower -c all frequency-info
+
+sudo cpupower -c all frequency-set -g ondemand && sudo cpupower -c all frequency-info
+
+sudo cpupower -c all frequency-set -g powersave && sudo cpupower -c all frequency-info
+
+nvidia-settings -q screens -q gpus -q framelocks  -q  vcs  -q gvis -q fans
