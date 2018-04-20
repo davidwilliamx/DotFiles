@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openbox_menu xmlns="http://openbox.org/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openbox.org/                 file:///usr/share/openbox/menu.xsd">
+	<menu id="root-menu" label="Openbox 3">
+		<item label="Terminal">
+			<action name="Execute">
+				<execute>x-terminal-emulator</execute>
+			</action>
+		</item>
+		<item label="Twitch Chat">
+			<action name="Execute">
+				<execute>/home/david/Downloads/tc-linux-11.0.0.AppImage</execute>
+			</action>
+		</item>
+		<item label="Twitch">
+			<action name="Execute">
+				<execute>/media/Fast/streamlink-twitch-gui/start.sh</execute>
+			</action>
+		</item>
+		<item label="Visual Studio">
+			<action name="Execute">
+				<execute>code</execute>
+			</action>
+		</item>
+		<item label="Scout-App">
+			<action name="Execute">
+				<execute>/home/david/Downloads/Scout-App/Scout-App</execute>
+			</action>
+		</item>
+		<item label="GitKraken">
+			<action name="Execute">
+				<execute>gitkraken</execute>
+			</action>
+		</item>
+		<item label="Sublime Text">
+			<action name="Execute">
+				<execute>subl</execute>
+			</action>
+		</item>
+		<item label="Steam">
+			<action name="Execute">
+				<execute>steam</execute>
+			</action>
+		</item>
+		<item label="Files">
+			<action name="Execute">
+				<execute>pcmanfm</execute>
+			</action>
+		</item>
+		<item label="Vlc">
+			<action name="Execute">
+				<execute>vlc</execute>
+			</action>
+		</item>
+		<item label="Tor">
+			<action name="Execute">
+				<execute>tor-browser-en.sh</execute>
+			</action>
+		</item>
+		<item label="Chrome">
+			<action name="Execute">
+				<execute>google-chrome-stable</execute>
+			</action>
+		</item>
+		<item label="Tixati">
+			<action name="Execute">
+				<execute>tixati</execute>
+			</action>
+		</item>
+		<item label="Firefox Dev">
+			<action name="Execute">
+				<execute>/media/Fast/firefox/firefox</execute>
+			</action>
+		</item>
+		<!-- This requires the presence of the 'menu' package to work -->
+		<item label="Skype">
+			<action name="Execute">
+				<execute>skypeforlinux</execute>
+			</action>
+		</item>
+		<item label="Discord">
+			<action name="Execute">
+				<execute>discord</execute>
+			</action>
+		</item>
+		<item label="Volume">
+			<action name="Execute">
+				<execute>pavucontrol</execute>
+			</action>
+		</item>
+		<separator/>
+		<menu id="root-menu-454811" label="Apparence">
+			<item label="LXappearance">
+				<action name="Execute">
+					<execute>lxappearance</execute>
+				</action>
+			</item>
+			<item label="Nitrogen">
+				<action name="Execute">
+					<execute>nitrogen</execute>
+				</action>
+			</item>
+			<item label="Openbox config">
+				<action name="Execute">
+					<execute>obconf</execute>
+				</action>
+			</item>
+			<item label="Openbox menu">
+				<action name="Execute">
+					<execute>obmenu</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="root-menu-383429" label="ConfigFiles">
+			<item label="Autostart">
+				<action name="Execute">
+					<execute>geany ~/.config/openbox/autostart</execute>
+				</action>
+			</item>
+			<item label="Bashrc">
+				<action name="Execute">
+					<execute>geany ~/.bashrc</execute>
+				</action>
+			</item>
+			<item label="Conky">
+				<action name="Execute">
+					<execute>geany ~/.config/.conkywine</execute>
+				</action>
+			</item>
+			<item label="Tint2">
+				<action name="Execute">
+					<execute>geany ~/.config/tint2/tint2rc</execute>
+				</action>
+			</item>
+			<item label="Compton">
+				<action name="Execute">
+					<execute>geany ~/.config/compton.conf</execute>
+				</action>
+			</item>
+			<item label="ObMenu (xml)">
+				<action name="Execute">
+					<execute>geany ~/.config/openbox/menu.xml</execute>
+				</action>
+			</item>
+			<item label="Shortcuts (rc.xml)">
+				<action name="Execute">
+					<execute>geany ~/.config/openbox/rc.xml</execute>
+				</action>
+			</item>
+			<item label="ObTheme (themerc)">
+				<action name="Execute">
+					<execute>/home/david/.config/theme-bind.sh</execute>
+				</action>
+			</item>
+		</menu>
+		<item label="Dmenu">
+			<action name="Execute">
+				<execute>/home/david/.config/dmenu-bind.sh</execute>
+			</action>
+		</item>
+		<separator/>
+		<item label="Reconfigure">
+			<action name="Reconfigure"/>
+		</item>
+		<item label="Shutdown PC">
+			<action name="Execute">
+				<execute>shutdown -h now</execute>
+			</action>
+		</item>
+		<item label="Restart PC">
+			<action name="Execute">
+				<execute>shutdown -r now</execute>
+			</action>
+		</item>
+		<item label="Restart">
+			<action name="Restart"/>
+		</item>
+		<item label="Exit">
+			<action name="Exit"/>
+		</item>
+	</menu>
+</openbox_menu>
